@@ -213,8 +213,7 @@ void *Filosofo(void* i)
 	int id,j;
 	id=*(int *) i;
 
-	for(j=0;j<2;j++)
-	{
+	while(true){ 
 		pensar(id);
 		coger_palillos(id);
 		comer(id);
